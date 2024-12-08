@@ -1,0 +1,24 @@
+{
+  "name": "railway-management-api",
+  "version": "1.0.0",
+  "description": "Building IRCTC API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Arjun Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "node": "^22.12.0",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.1"
+  }
+}
